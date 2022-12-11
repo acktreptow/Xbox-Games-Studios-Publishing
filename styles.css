@@ -6,7 +6,7 @@
 
 body {
   border: 1px solid black;
-  padding-bottom: 100px;
+  padding-bottom: 1000px;
 }
 
 h1 {
@@ -16,7 +16,6 @@ h1 {
 }
 
 #nav-bar {
-  border: solid 1px black;
   display: flex;
   margin-top: 20px;
 }
@@ -27,3 +26,34 @@ h3 {
   margin: 10px auto;
 }
 
+#experience-container {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 300px;
+  background-image: url(/Images/microsoft_building.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 43.5%;
+  position: relative;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#experience-inner-container {
+  background-color: white;
+  opacity: 90%;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
