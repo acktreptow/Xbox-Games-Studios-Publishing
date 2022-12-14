@@ -9,32 +9,54 @@ body {
   padding-bottom: 1000px;
 }
 
+#header-container {
+  position: relative;
+}
+
 h1 {
   text-align: center;
   font-size: 40px;
   margin-top: 30px;
 }
 
+#logo {
+  height: 80px;
+  position: absolute;
+  top: -20px;
+  left: 25px;
+  border-radius: 50%;
+}
+
+#h1-container,
+#logo-container,
+#nav-bar {
+}
+
 #nav-bar {
   display: flex;
-  margin-top: 20px;
+  width: 600px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  justify-content: flex-end;
 }
 
 h3 {
   text-decoration: underline;
-  font-size: 25px;
-  margin: 10px auto;
+  font-size: 20px;
+  margin: 10px 5px;
 }
 
 #experience-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 100px;
   height: 260px;
   background-image: url(/Images/XGSP_banner_resized.jpg);
   background-repeat: repeat;
   background-size: contain;
   background-position-y: 20.5%;
   position: relative;
+  border: 1px solid black;
 }
 
 h2 {
@@ -62,14 +84,81 @@ p {
   margin-bottom: 0;
 }
 
+#adf-container {
+  margin-top: 100px;
+}
+
+#adf-img {
+  width: 100%;
+}
+
 #games-container {
-  margin-top: 20px;
-  height: 500px;
-  border: 1px solid black;
+  margin-top: 150px;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 #upcoming-games-header {
   flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+#games-one-container,
+#games-two-container,
+#games-three-container {
+  display: flex;
+}
+
+#games-one-image,
+#games-two-image,
+#games-three-image {
+  margin-right: 10px;
+  border-radius: 2%;
+  height: 300px;
+}
+
+#games-one-description,
+#games-two-description,
+#games-three-description {
+  margin: auto;
+}
+#games-one-description p,
+#games-two-description p,
+#games-three-description p {
+  margin: auto;
+  font-size: 25px;
+}
+
+#team-container {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#team-header {
+  flex-basis: 100%;
+}
+
+#team-container-one,
+#team-container-two,
+#team-container-three {
+  margin-top: 15px;
+}
+
+#team-description-one,
+#team-description-two,
+#team-description-three {
+  text-align: center;
+}
+
+.job-title {
+  font-size: 23px;
+}
+
+#team-picture-one img,
+#team-picture-two img,
+#team-picture-three img {
+  border-radius: 2%;
 }
